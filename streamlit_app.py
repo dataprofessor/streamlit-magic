@@ -18,7 +18,7 @@ x = 10
 import matplotlib.pyplot as plt
 import numpy as np
 
-arr = np.random.normal(0, 1, size=100)
+arr = np.random.normal(0, 1, size=1000)
 fig, ax = plt.subplots()
 ax.hist(arr, bins=20)
 
